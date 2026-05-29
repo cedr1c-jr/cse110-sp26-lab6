@@ -43,7 +43,7 @@ function addRecipesToDocument(recipes) {
 	//            Append each element to <main>
 	recipes.forEach(recipe => {
 		const card = document.createElement('recipe-card');
-		card.data = recipes;
+		card.data = recipe;
 		main.appendChild(card);
 	})
 }
